@@ -1,0 +1,137 @@
+.greyBackground {
+  background-color: rgb(249, 249, 255);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.blueBackground {
+  background-color: rgb(149, 149, 247);
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.first-card {
+  position: relative;
+  z-index: 3;
+  width: 95%;
+  margin-top: -35px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.first-card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.select-field {
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.select-field select {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin-right: 50px;
+}
+
+.progress-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  z-index: 3;
+}
+
+.progress-card {
+  width: 250px;
+  height: 200px;
+  justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+.circular-progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.circular-progress {
+  width: 120px;
+  height: 120px;
+}
+
+.progress-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.progress-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.status-card {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: -645px;
+  z-index: 4;
+}
+
+.status-completion-card {
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: -150px;
+  margin-left: auto;
+  margin-right: -750px;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 4;
+}
+
+.divider {
+  margin: 10px 0;
+}
+
+.status-card .shelves-value {
+  visibility: visible;
+}

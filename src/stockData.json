@@ -1,0 +1,32 @@
+{
+  "Compliance": {
+    "client1": { "Store 1": 30, "Store 2": 60, "Store 3": 90 },
+    "client2": { "Shop 1": 40, "Shop 2": 70, "Shop 3": 20 },
+    "client3": { "Outlet 1": 80, "Outlet 2": 10, "Outlet 3": 50 }
+  },
+  "Overstock": {
+    "client1": { "Store 1": 20, "Store 2": 50, "Store 3": 80 },
+    "client2": { "Shop 1": 30, "Shop 2": 60, "Shop 3": 90 },
+    "client3": { "Outlet 1": 40, "Outlet 2": 70, "Outlet 3": 20 }
+  },
+  "Understock": {
+    "client1": { "Store 1": 10, "Store 2": 40, "Store 3": 70 },
+    "client2": { "Shop 1": 50, "Shop 2": 80, "Shop 3": 20 },
+    "client3": { "Outlet 1": 30, "Outlet 2": 60, "Outlet 3": 90 }
+  },
+  "Misplaced": {
+    "client1": { "Store 1": 70, "Store 2": 20, "Store 3": 50 },
+    "client2": { "Shop 1": 90, "Shop 2": 40, "Shop 3": 70 },
+    "client3": { "Outlet 1": 20, "Outlet 2": 50, "Outlet 3": 80 }
+  },
+  "NoStock": {
+    "client1": { "Store 1": 50, "Store 2": 80, "Store 3": 20 },
+    "client2": { "Shop 1": 70, "Shop 2": 10, "Shop 3": 40 },
+    "client3": { "Outlet 1": 90, "Outlet 2": 30, "Outlet 3": 60 }
+  },
+  "OutOfShelf": {
+    "client1": { "Store 1": 60, "Store 2": 90, "Store 3": 30 },
+    "client2": { "Shop 1": 80, "Shop 2": 20, "Shop 3": 50 },
+    "client3": { "Outlet 1": 10, "Outlet 2": 40, "Outlet 3": 70 }
+  }
+}
